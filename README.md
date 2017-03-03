@@ -26,3 +26,9 @@ VOLUME /upload
 ```javascript
 ADD *.war /usr/local/tomcat/webapps/
 ```
+
+#Build Image
+
+```javascript
+docker build ./tomcat/8.0/jre8/ -t web-app
+```
